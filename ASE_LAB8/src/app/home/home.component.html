@@ -1,0 +1,11 @@
+<div class="center">
+  <div>
+    <button class="btn btn-success" (click)="inf()">Get my token Payload Details</button>
+  </div>
+  <div *ngIf="UI" class="boxstyle" >
+    <h5>Payload information</h5>
+<br>
+    <p>UserName: {{UI.user}}</p>
+    <p>Password:  {{UI.pass}}</p>
+  </div>
+</div>
